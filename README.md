@@ -3,6 +3,14 @@
 SOLID is an acronym for a set of design principles that were introduced by Robert C. Martin, also known as Uncle Bob.
 SOLID principles are a set of design principles that can help developers create maintainable and flexible code.
 
+## Table of Contents
+
+- [Single Responsibility Principle (SRP)](solid_python/srp)
+- [Open/Closed Principle (OCP)](solid_python/ocp)
+- [Liskov Substitution Principle (LSP)](solid_python/lsp)
+- [Interface Segregation Principle (ISP)](solid_python/isp)
+- [Dependency Inversion Principle (DIP)](solid_python/dip)
+
 ## Single Responsibility Principle (SRP)
 
 The Single Responsibility Principle states that a class should have only one reason to change. In other words, a class
@@ -48,46 +56,3 @@ should depend on abstractions. This principle helps to ensure that the code is f
 
 When using SOLID principles, you can create code that is more maintainable, flexible, and testable. It helps you avoid
 tight coupling between components, minimize code duplication, and increase the re-usability of your code.
-
-
-
-
-
-
-
-
-
-```
-project-name/
-    README.md
-    LICENSE
-    requirements.txt
-    setup.py
-    project_name/
-        __init__.py
-        main.py
-    tests/
-        test_main.py
-
-```
-
-Here's a brief description of each file and directory in this template:
-
-`README.md`: This file contains information about the project, how to use it, and how to contribute to it.
-`LICENSE`: This file contains the license under which the project is released. You should choose a license that suits
-your
-needs and requirements.
-`requirements.txt`: This file lists all the dependencies required to run the project. You can use pip to install these
-dependencies.
-`setup.py`: This file contains the metadata and configuration information for the project. You can use it to install the
-project as a Python package.
-
-- `project_name/`: This directory contains the source code for the project.
-    - `__init__.py`: This file makes the project_name directory a Python package.
-    - `main.py`: This file contains the main logic of the project.
-- `tests/`: This directory contains all the unit tests for the project.
-    - `test_main.py`: This file contains the unit tests for main.py.
-
-This project template is just a starting point, and you can customize it as per your project requirements. You can add
-more directories for additional functionality, documentation, or assets. Additionally, you can include CI/CD
-configuration files like `.travis.yml` or `.github/workflows` to automate your testing and deployment processes.
