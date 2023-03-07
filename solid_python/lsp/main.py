@@ -27,7 +27,7 @@ class Square(Shape):
         self.side = side
 
     def area(self):
-        return self.side ** 2
+        return self.side**2
 
 
 """
