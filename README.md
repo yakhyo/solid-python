@@ -49,6 +49,14 @@ should depend on abstractions. This principle helps to ensure that the code is f
 When using SOLID principles, you can create code that is more maintainable, flexible, and testable. It helps you avoid
 tight coupling between components, minimize code duplication, and increase the re-usability of your code.
 
+
+
+
+
+
+
+
+
 ```
 project-name/
     README.md
