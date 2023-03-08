@@ -6,5 +6,4 @@ author:
   
 theme: minima
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
