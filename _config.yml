@@ -1,2 +1,10 @@
 title: SOLID Principles in Python
+
+author:
+  name: Yakhyokhuja Valikhujaev
+  email: yakhyo9696@gmail.com
+  
 theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
