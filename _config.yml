@@ -2,8 +2,14 @@ title: SOLID Principles in Python
 
 author:
   name: Yakhyokhuja Valikhujaev
-  email: yakhyo9696@gmail.com
+  email: "yakhyo9696@gmail.com"
   
 theme: minima
 plugins:
   - jekyll-seo-tag
+  
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/yakhyo" }
+    - { platform: twitter, user_url: "https://twitter.com/y_valikhujaev" }
+    - { platform: youtube, user_url: "https://twitter.com/codeuz" }
