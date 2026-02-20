@@ -1,0 +1,30 @@
+# IDEs
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Type-checking / linting caches
+.mypy_cache/
+.ruff_cache/
+
+# Environment
+.env
+.venv/
+venv/
+
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+
+# OS
+.DS_Store
+Thumbs.db

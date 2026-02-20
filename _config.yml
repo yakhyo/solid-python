@@ -1,0 +1,68 @@
+title: SOLID Principles in Python
+description: Learn the five SOLID design principles with Python examples — violation vs correct, with UML diagrams.
+
+theme: just-the-docs
+
+url: "https://yakhyo.github.io"
+baseurl: "/solid-python"
+
+repo_url: "https://github.com/yakhyo/solid-python"
+
+author:
+  name: Yakhyokhuja Valikhujaev
+  email: "yakhyo9696@gmail.com"
+
+aux_links:
+  "GitHub":
+    - "https://github.com/yakhyo/solid-python"
+
+aux_links_new_tab: true
+
+nav_sort: case_insensitive
+
+heading_anchors: true
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+enable_copy_code_button: true
+
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/yakhyo/solid-python"
+gh_edit_branch: "main"
+gh_edit_source: ""
+gh_edit_view_mode: "edit"
+
+plugins:
+  - jekyll-seo-tag
+
+footer_content: >-
+  &copy; 2025 Yakhyokhuja Valikhujaev.
+  Distributed under the <a href="https://github.com/yakhyo/solid-python/blob/main/LICENSE">MIT License</a>.
+
+sass:
+  quiet_deps: true
+  silence_deprecations:
+    - import
+    - global-builtin
+    - color-functions
+
+exclude:
+  - "*.py"
+  - "__pycache__"
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - .github
+
+callouts:
+  warning:
+    title: Warning
+    color: red
+  note:
+    title: Note
+    color: blue
+  tip:
+    title: Tip
+    color: green
